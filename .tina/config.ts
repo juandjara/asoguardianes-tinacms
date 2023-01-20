@@ -70,8 +70,8 @@ function menuItemLabel(item: { title: string; hidden: boolean }) {
 
 export default defineConfig({
   branch,
-  clientId: null, // Get this from tina.io
-  token: null, // Get this from tina.io
+  clientId: process.env.TINA_CLIENT_ID as string, // Get this from tina.io
+  token: process.env.TINA_READ_TOKEN as string, // Get this from tina.io
   build: {
     outputFolder: "admin",
     publicFolder: "public",

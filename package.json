@@ -3,15 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "cms": "tinacms dev -c 'npm run dev'",
-    "deploy": "fly deploy --remote-only",
-    "build": "tinacms build && run-s \"build:*\"",
+    "build": "run-s \"build:*\"",
     "build:css": "npm run generate:css -- --minify",
     "build:remix": "remix build",
     "dev": "run-p \"dev:*\"",
     "dev:css": "npm run generate:css -- --watch",
     "dev:remix": "remix dev",
     "generate:css": "npx tailwindcss -o ./app/tailwind.css",
-    "start": "tinacms build && remix-serve build"
+    "start": "remix-serve build"
   },
   "dependencies": {
     "@remix-run/node": "^1.7.2",
