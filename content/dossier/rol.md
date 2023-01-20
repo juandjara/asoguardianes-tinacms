@@ -81,3 +81,4 @@ Vive aventuras trepidantes, desde la conquista de un castillo medieval hasta bat
 
 * **#Feminism**. Una serie de aventuras narrativas que desarrollan el punto de vista de la mujer en distintas situaciones con el objetivo de concienciar sobre la posición de la mujer en el mundo de hoy en día.
 * **Un céntimo por tus pensamientos**: El estrés postraumático es muy difícil de tratar. Por suerte tenemos un nuevo tratamiento gracias a disparadores nemotécnicos. Esta tarde realizaremos una sesión de grupo para explorar esta nueva técnica. Su amnesia terminará muy pronto.
+
