@@ -1,0 +1,78 @@
+{
+  "title": "Asociación Guardianes",
+  "description": "Eventos culturales de ocio alternativo",
+  "topnav": [
+    {
+      "title": "Actividades",
+      "link": "/dossier"
+    },
+    {
+      "title": "Calendario",
+      "link": "/calendar"
+    },
+    {
+      "title": "Sobre nosotros",
+      "link": "/about",
+      "hidden": false
+    }
+  ],
+  "dossier": [
+    {
+      "title": "Rol",
+      "link": "/dossier/rol",
+      "icon": "/images/iconos-dossier/rol.png"
+    },
+    {
+      "title": "Talleres",
+      "link": "/dossier/talleres",
+      "icon": "/images/iconos-dossier/talleres.png"
+    },
+    {
+      "title": "Juegos de mesa",
+      "link": "/dossier/juegos-de-mesa",
+      "icon": "/images/iconos-dossier/juegos_de_mesa.png"
+    },
+    {
+      "title": "Concursos y Gymkanas",
+      "link": "/dossier/concursos-y-gymkanas",
+      "icon": "/images/iconos-dossier/concursos_y_gymkanas.png"
+    },
+    {
+      "title": "E-Sports",
+      "link": "/dossier/esports",
+      "icon": "/images/iconos-dossier/esports.png"
+    },
+    {
+      "title": "Cultura",
+      "link": "/dossier/cultura",
+      "icon": "/images/iconos-dossier/cultura.png"
+    }
+  ],
+  "socials": [
+    {
+      "title": "@asoguardianes",
+      "link": "https://twitter.com/asoguardianes",
+      "icon": "/images/iconos-rrss/twitter.svg"
+    },
+    {
+      "title": "Guardianes Sevilla",
+      "link": "https://www.facebook.com/Guardianes-Sevilla-758918664213908",
+      "icon": "/images/iconos-rrss/facebook.svg"
+    },
+    {
+      "title": "@asoguardianes",
+      "link": "https://instagram.com/asoguardianes",
+      "icon": "/images/iconos-rrss/instagram.svg"
+    },
+    {
+      "title": "guardianes_esports",
+      "link": "https://www.twitch.tv/guardianes_esports",
+      "icon": "/images/iconos-rrss/twitch.svg"
+    },
+    {
+      "title": "asociacion.guardianes@gmail.com",
+      "link": "mailto:asociacion.guardianes@gmail.com",
+      "icon": "/images/iconos-rrss/mail.svg"
+    }
+  ]
+}
