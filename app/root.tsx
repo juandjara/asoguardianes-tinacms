@@ -13,7 +13,6 @@ import GlobalSpinner from "./components/GlobalSpiner"
 import LiveReload from "./components/LiveReload"
 import tailwind from "./tailwind.css"
 import { client } from '_tina/__generated__/client'
-import { useTina } from 'tinacms/dist/react'
 import Nav from "./components/Nav"
 import Footer from "./components/Footer"
 import { buttonCN } from "./styles"
@@ -21,12 +20,13 @@ import { buttonCN } from "./styles"
 export function links() {
   return [
     { rel: "stylesheet", href: tailwind },
+    { rel: 'icon', type: 'image/png', href: '/images/escudo-fullcolor.png' }
   ]
 }
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: 'Remix Tailwind Starter',
+  title: 'Asociacion Guardianes',
   viewport: "width=device-width,initial-scale=1",
 })
 

@@ -17,8 +17,8 @@ export default function Nav({ siteConfig }: { siteConfig: SiteConfigData }) {
       <nav className="flex items-center md:justify-center gap-3 overflow-x-auto">
         {siteConfig.topnav.filter(item => !item.hidden).map(item => (
           item.external
-            ? <a className={linkCN} href={item.link}>{item.title}</a>
-            : <Link className={linkCN} to={item.link}>{item.title}</Link>
+            ? <a key={item.link} className={linkCN} href={item.link}>{item.title}</a>
+            : <Link key={item.link} className={linkCN} to={item.link}>{item.title}</Link>
         ))}
       </nav>
     </div>
