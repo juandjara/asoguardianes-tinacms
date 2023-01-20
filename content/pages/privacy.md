@@ -1,6 +1,6 @@
 ---
 title: Política de privacidad
-image: 1
+image: 
 image_caption: 
 ---
 

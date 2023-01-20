@@ -1,6 +1,5 @@
 ---
 title: Sobre nosotros
-position: 8
 image: ''
 image_caption: ''
 ---
